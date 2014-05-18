@@ -1,0 +1,27 @@
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"level":20,"msg":"Process was running 1 seconds before agent was loaded.","time":"2014-05-18T18:15:50.130Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"level":20,"msg":"Current working directory at module load is /Users/alonsoholmes/developer/hubot-queue.","time":"2014-05-18T18:15:50.131Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"level":20,"msg":"Process title is node.","time":"2014-05-18T18:15:50.131Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"level":20,"msg":"Application was invoked as coffee /Users/alonsoholmes/developer/hubot-queue/server.coffee.","time":"2014-05-18T18:15:50.132Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"level":20,"msg":"Using configuration file /Users/alonsoholmes/developer/hubot-queue/newrelic.js.","time":"2014-05-18T18:15:50.132Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"mapper","level":20,"msg":"No new metric mappings from server.","time":"2014-05-18T18:15:50.783Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Wrapping module loader.","time":"2014-05-18T18:15:50.804Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented Module._load.","time":"2014-05-18T18:15:50.804Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.createServer.","time":"2014-05-18T18:15:50.807Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.Server.prototype.on.","time":"2014-05-18T18:15:50.807Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.Server.prototype.addListener.","time":"2014-05-18T18:15:50.807Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.request.","time":"2014-05-18T18:15:50.808Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.Client.","time":"2014-05-18T18:15:50.808Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.createClient.","time":"2014-05-18T18:15:50.808Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.createServer.","time":"2014-05-18T18:15:50.810Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.Server.prototype.on.","time":"2014-05-18T18:15:50.810Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.Server.prototype.addListener.","time":"2014-05-18T18:15:50.811Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"Instrumented http.request.","time":"2014-05-18T18:15:50.811Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"http.Client not defined, so not wrapping.","time":"2014-05-18T18:15:50.811Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"shimmer","level":10,"msg":"http.createClient not defined, so not wrapping.","time":"2014-05-18T18:15:50.811Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"level":20,"msg":"Agent state changed from stopped to starting.","time":"2014-05-18T18:15:50.811Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"level":30,"msg":"Starting New Relic for Node.js connection process.","time":"2014-05-18T18:15:50.812Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"new_relic_call","level":20,"msg":"Calling get_redirect_host on collector API with: []","time":"2014-05-18T18:15:50.813Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"new_relic_call","level":10,"body":"[]","msg":"Posting to http://collector.newrelic.com:80/agent_listener/invoke_raw_method?marshal_format=json&protocol_version=12&license_key=need-to-make-this&method=get_redirect_host","time":"2014-05-18T18:15:50.924Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"new_relic_call","level":20,"msg":"Finished receiving data back from the collector for get_redirect_host.","time":"2014-05-18T18:15:51.114Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"new_relic_response","level":10,"response":{"exception":{"message":"Invalid license key, please contact support@newrelic.com","error_type":"NewRelic::Agent::LicenseException"}},"msg":"Deserialized from collector:","time":"2014-05-18T18:15:51.115Z","v":0}
+{"name":"newrelic","hostname":"Companion-Cube.local","pid":17364,"component":"collector_api","level":20,"msg":"Failed attempting to connect to New Relic, waiting 15s to retry.","time":"2014-05-18T18:15:51.116Z","v":0}
